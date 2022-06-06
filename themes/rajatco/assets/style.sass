@@ -6,8 +6,9 @@ $weight-light: 200
 $weight-normal: 400
 $weight-bold: 700
 
-@import "bulma/bulma.sass"
+$fullhd-enabled: false
 
+@import "bulma/bulma.sass"
 
 body
   display: flex
@@ -26,12 +27,15 @@ h2,
   font-weight: $weight-bold
 
 #site-header
-  padding-top: 6rem
+  padding-top: 2rem
   padding-bottom: 3rem
 
 #site-title
   font-size: 1.2rem
-  color: #F22F1D
+  color: $black-ter
+
+.home-title-column
+  margin-top: -1.75rem
 
 .content p,
 .content ol,
