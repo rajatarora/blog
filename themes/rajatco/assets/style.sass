@@ -1,0 +1,103 @@
+$family-sans-serif: 'IBM Plex Sans'
+$family-secondary: 'IBM Plex Serif'
+$family-monospace: 'IBM Plex Mono'
+
+$weight-light: 200
+$weight-normal: 400
+$weight-bold: 700
+
+@import "bulma/bulma.sass"
+
+
+body
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+
+main
+  flex: 1
+
+h2,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6
+  font-weight: $weight-bold
+
+#site-header
+  padding-top: 6rem
+  padding-bottom: 3rem
+
+#site-title
+  font-size: 1.2rem
+  color: #F22F1D
+
+.content p,
+.content ol,
+.content ul
+  font-family: $family-secondary
+  font-size: 1.1rem
+  line-height: 1.8rem
+  color: $black-bis
+
+#post-title,
+#post-content
+  padding-bottom: 6rem
+
+.footnotes[role="doc-endnotes"],
+#post-metadata
+  padding-top: 2rem
+
+.footnotes[role="doc-endnotes"] ol,
+.footnotes[role="doc-endnotes"] ol p,
+#post-metadata
+  font-family: $family-primary
+  font-weight: $weight-normal
+  color: $grey-dark
+  font-size: 0.9rem
+
+#post-metadata
+  font-size: 0.8rem
+  color: $grey
+  p
+    padding-left: 1rem
+
+
+.emojify
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'NotoColorEmoji', 'Segoe UI Symbol', 'Android Emoji', EmojiSymbols
+  font-size: 1rem
+  vertical-align: middle
+
+.content blockquote
+  margin: 4rem -8rem 4rem -8rem
+  background-color: $body-background-color
+  border-color: #0F1B26
+
+.content blockquote:not(:last-child)
+  margin-bottom: 4rem
+
+.content blockquote p
+  font-family: 'Bebas Neue'
+  color: #F22F1D
+  font-size: 2.75rem
+  line-height: 2.75rem
+  strong
+    color: #F22F1D
+
+
+
+
+@media (max-width: $tablet)
+  .content blockquote
+    margin-left: 0
+    margin-right: 0
+
+.highlight code
+  font-weight: $weight-normal
+
+code
+  color: #F22F1D
+  background-color: $body-background-color
+  font-weight: $weight-bold
+  padding: 0

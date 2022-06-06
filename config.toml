@@ -1,0 +1,55 @@
+baseURL = 'https://rajat.co/'
+languageCode = 'en-us'
+title = '''Rajat Arora'''
+theme = 'rajatco'
+
+[params]
+    description = "I write about tech, creativity, finance, and climate change"
+
+[[menu.main]]
+  name = "Who Am I"
+  url = "/about"
+
+[[menu.main]]
+  name = "Browse"
+  url = "/blog"
+
+[[menu.main]]
+  name = "RSS"
+  url = "/blog"
+
+[[menu.footer]]
+  name = "About"
+  url = "/about"
+
+[[menu.footer]]
+  name = "Privacy"
+  url = "/privacy"
+
+
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'pygments'
+    tabWidth = 4
+   [markup.goldmark]
+     [markup.goldmark.renderer]
+       unsafe = true
+
+
+[taxonomies]
+  category = 'categories'
+  series = 'series'
+  tag = 'tags'
+
+enableEmoji = true

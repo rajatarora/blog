@@ -1,0 +1,7 @@
+{{ with .Param "series" }}
+    {{ range $index, $srs := (. | sort) }}
+        {{ with $.Site.GetPage (printf "/%s/%s" "series" $srs) }}
+            <a href="{{ .Permalink }}">{{ $srs | urlize }}</a>
+        {{ end }}
+    {{ end }}
+{{ end }}

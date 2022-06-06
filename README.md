@@ -1,0 +1,1 @@
+hugo server -D --bind :: --disableFastRender --theme bare --themesDir ../../ --config config.toml,../config.demo.toml --verbose
