@@ -70,28 +70,26 @@ h2,
   vertical-align: middle
 
 .content blockquote
-  margin: 4rem -8rem 4rem -8rem
+  margin: 2rem 0 2rem 0
   background-color: $body-background-color
   border-color: #0F1B26
+  border-left-width: 2px
 
 .content blockquote:not(:last-child)
-  margin-bottom: 4rem
+  margin-bottom: 2rem
 
 .content blockquote p
-  font-family: 'Bebas Neue'
+  font-family: $family-secondary
+  font-style: italic
+  font-weight: $weight-bold
   color: #F22F1D
-  font-size: 2.75rem
-  line-height: 2.75rem
+  font-size: 1.5rem
+  line-height: 2rem
   strong
     color: #F22F1D
-
-
-
-
-@media (max-width: $tablet)
-  .content blockquote
-    margin-left: 0
-    margin-right: 0
+  cite
+    font-size: 1.25rem
+    font-weight: $weight-normal
 
 .highlight code
   font-weight: $weight-normal
