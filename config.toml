@@ -12,7 +12,7 @@ theme = 'rajatco'
 
 [[menu.main]]
   name = "Browse"
-  url = "/blog"
+  url = "/post"
 
 [[menu.main]]
   name = "RSS"
