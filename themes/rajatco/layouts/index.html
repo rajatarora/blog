@@ -17,14 +17,28 @@
         </div>
         <div class="columns is-centered home-title-column">
             <div class="column is-half">
-                <p class="home-title has-text-centered has-text-black-ter has-text-weight-light is-size-5">
+                <p class="home-title has-text-centered has-text-black-ter is-size-5 mt-4">
                     Passionate software developer, with a penchant for questioning and explaining stuff.
                 </p>
-                <p class="home-title has-text-centered has-text-black-ter has-text-weight-light is-size-5 mt-2">
+                <p class="home-title has-text-centered has-text-black-ter is-size-5 mt-5">
                     This is my online home, where I (will <span class="emojify">🙈</span>) write about a lot of things that interest me. My latest posts are listed below. For more, click on <a href="/post">Browse</a>.
                 </p>
             </div>
         </div>
+
+        <hr class="mt-6 mb-6">
+
+        <div class="columns is-centered">
+            <div class="column is-9">
+                <ul>
+                    {{ range ( where .Site.RegularPages "Type" "post" | first 5 ) }}
+<!--                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>-->
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+
     </div>
 </div>
 {{ end }}
