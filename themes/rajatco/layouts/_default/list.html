@@ -12,46 +12,54 @@
         </div>
     </div>
     <div class="section">
-        <div class="content">
-            <div class="tile is-ancestor is-desktop">
-                <div class="tile is-parent is-6">
-                    <article class="tile is-child notification">
-                        <div class="content">
-                            <p class="title">Blog Posts</p>
+        <div class="tile is-ancestor">
 
-
-                                <ul>
-                                    {{ range (.Paginate ( .Pages.ByPublishDate )).Pages }}
-                                    <li class="mb-3">
-                                        <a href="{{ .Permalink }}">{{ .Title }}</a>
-                                    </li>
-                                    {{ end }}
-                                </ul>
-                                <p>{{ .Paginator.Pages }} {{ .Paginator.HasPrev }} {{ .Paginator.HasNext }}</p>
-
-                        </div>
+            <div class="tile is-8 is-parent">
+                <div class="tile is-child">
+                    <p class="title">Blog Posts</p>
+                    <p class="subtitle">Long form content to read at leisure</p>
+                    <article>
+                        <ul>
+                            {{ range ( where .Site.RegularPages "Type" "post" ) }}
+                            <li class="post-list mb-3">
+                                <a href="{{ .Permalink }}" class="post-list-title is-size-5 has-text-weight-semibold">{{ .Title }}</a>
+                                <br/>
+                                <div class="post-list-meta is-size-7 has-text-grey">
+                                    {{ .PublishDate | time.Format ":date_long" }}
+                                </div>
+                            </li>
+                            {{ end }}
+                        </ul>
                     </article>
                 </div>
-                <div class="tile is-vertical is-6">
-                    <div class="tile">
-                        <div class="tile is-parent is-vertical">
-                            <article class="tile is-child notification is-primary">
-                                <p class="title">Vertical...</p>
-                                <p class="subtitle">Top tile</p>
-                            </article>
-                            <article class="tile is-child notification is-warning">
-                                <p class="title">...tiles</p>
-                                <p class="subtitle">Bottom tile</p>
-                            </article>
-                            <article class="tile is-child notification is-warning">
-                                <p class="title">...tiles</p>
-                                <p class="subtitle">Bottom tile</p>
-                            </article>
-                        </div>
-                    </div>
+            </div>
+
+            <div class="tile is-vertical is-parent">
+                <div class="tile is-child">
+                    <p class="title is-4">Shorts</p>
+                    <p class="subtitle is-6">Quick and easy reads!</p>
+                </div>
+                <div class="tile is-child">
+                    <p class="title is-4">Categories</p>
+                    <p class="subtitle is-6">Broader topics I like to write about</p>
+                </div>
+                <div class="tile is-child">
+                    <p class="title is-4">Tags</p>
+                    <p class="subtitle is-6">Narrower but numerous topics</p>
+                    <article>
+                        {{range $name, $taxonomy := .Site.Taxonomies.tags}}
+                            {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+                                <span class="tagbutton">
+                                    <a href={{ .RelPermalink }} title="All pages with tag {{$name}}">{{$name}}</a>
+                                </span>
+                            {{end}}
+                        {{end}}
+                    </article>
                 </div>
             </div>
+
         </div>
+
     </div>
 </div>
 {{ end }}
