@@ -15,25 +15,33 @@
                 </h1>
             </div>
         </div>
-        <div class="columns is-centered home-title-column">
+        <div class="columns is-centered home-title-column has-text-centered has-text-grey-dark is-size-5">
             <div class="column is-half">
-                <p class="home-title has-text-centered has-text-black-ter is-size-5 mt-4">
+                <p class="home-title mt-4">
                     Passionate software developer, with a penchant for questioning and explaining stuff.
                 </p>
-                <p class="home-title has-text-centered has-text-black-ter is-size-5 mt-5">
-                    This is my online home, where I (will <span class="emojify">🙈</span>) write about a lot of things that interest me. My latest posts are listed below. For more, click on <a href="/post">Browse</a>.
+                <p class="home-title mt-5">
+                    This is my online home, where I (will <span class="nowrap"><span class="emojify">🙈</span></span>) write about a lot of things that interest me. My latest posts are listed below. For more, click on <a href="/post">Browse</a>.
                 </p>
             </div>
         </div>
 
-        <hr class="mt-6 mb-6">
+        <hr class="my-6">
 
         <div class="columns is-centered">
             <div class="column is-9">
                 <ul>
                     {{ range ( where .Site.RegularPages "Type" "post" | first 5 ) }}
-<!--                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>-->
-                    <li>{{ . }}</li>
+                        <li class="post-list mb-6">
+                            <a href="{{ .Permalink }}" class="post-list-title is-size-3 has-text-weight-bold has-text-black-ter">{{ .Title }}</a>
+                            <br/>
+                            <div class="post-list-meta has-text-grey">
+                                {{ .PublishDate | time.Format ":date_long" }} &middot; {{ .WordCount }} words &middot; {{ .ReadingTime }} min read
+                            </div>
+                            <div class="post-list-summary has-text-weight-light is-size-6 mt-3">
+                                {{ .Summary }}
+                            </div>
+                        </li>
                     {{ end }}
                 </ul>
             </div>
