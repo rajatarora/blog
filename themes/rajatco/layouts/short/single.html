@@ -1,16 +1,16 @@
 {{ define "main" }}
-<section class="section single-post" id="post-content">
+<section class="section" id="post-content">
     <div class="container">
         <article>
             <div class="columns is-centered">
                 <div class="column is-9 has-text-centered" id="post-title">
                     <h1 class="title is-1">{{ .Title }}</h1>
-                    <p class="is-size-6">{{ .WordCount }} words &middot; {{ .ReadingTime }} min read</p>
+                    <p class="is-size-6">{{ .WordCount }} words</p>
                 </div>
             </div>
             <div class="columns is-centered">
                 <div class="column is-8">
-                    <div class="content">
+                    <div class="content is-medium">
                         {{ .Content | emojify }}
                     </div>
                     <div id="post-metadata">
