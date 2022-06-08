@@ -2,13 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/themes/bare" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/themes/bare/assets/css/bulma" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/themes/bare/assets/icons" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/themes/blank" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/themes/ghostwriter" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/rajatco/assets/bulma" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/themes/sk1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/themes/sk1/exampleSite" vcs="Git" />
   </component>
 </project>
