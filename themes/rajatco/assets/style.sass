@@ -70,27 +70,35 @@ h2,
   font-size: 0.95rem
   vertical-align: baseline
 
-.content blockquote
-  margin: 2rem 0 2rem 0
-  background-color: $body-background-color
-  border-color: #0F1B26
-  border-left-width: 2px
+.single-post .content,
+.content
+  blockquote
+    margin: 2rem 0 2rem 0
+    background-color: $body-background-color
+    border-color: #0F1B26
+    border-left-width: 2px
 
 .content blockquote:not(:last-child)
   margin-bottom: 2rem
 
-.single-post .content blockquote p
-  font-family: $family-secondary
-  font-style: italic
-  font-weight: $weight-bold
-  color: #F22F1D
-  font-size: 1.25rem
-  line-height: 1.5rem
-  strong
+.single-post .content,
+.content
+  blockquote p
+    font-family: $family-secondary
+    font-style: italic
+    font-weight: $weight-bold
     color: #F22F1D
-  cite
-    font-size: 1.1rem
-    font-weight: $weight-normal
+    font-size: 1.25rem
+    line-height: 1.5rem
+    strong
+      color: #F22F1D
+    cite
+      font-size: 1.1rem
+      font-weight: $weight-normal
+
+.is-medium blockquote p
+  font-size: 1.5rem
+  line-height: 1.8rem
 
 .highlight code
   font-weight: $weight-normal
