@@ -26,8 +26,6 @@ theme = 'rajatco'
   name = "Privacy"
   url = "/privacy"
 
-
-
 [markup]
   [markup.highlight]
     anchorLineNos = true

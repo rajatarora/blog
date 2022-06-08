@@ -16,7 +16,7 @@
 
             <div class="tile is-8 is-parent">
                 <div class="tile is-child">
-                    <p class="title">Blog Posts</p>
+                    <p class="title">Blog Posts <span class="tag is-warning">See all</span></p>
                     <p class="subtitle">Long form content to read at leisure</p>
                     <article>
                         <ul>
@@ -36,15 +36,15 @@
 
             <div class="tile is-vertical is-parent">
                 <div class="tile is-child">
-                    <p class="title is-4">Shorts</p>
+                    <p class="title is-4">Shorts <span class="tag is-warning">See all</span></p>
                     <p class="subtitle is-6">Quick and easy reads!</p>
                 </div>
                 <div class="tile is-child">
-                    <p class="title is-4">Categories</p>
+                    <p class="title is-4">Categories <span class="tag is-warning">See all</span></p>
                     <p class="subtitle is-6">Broader topics I like to write about</p>
                 </div>
                 <div class="tile is-child">
-                    <p class="title is-4">Tags</p>
+                    <p class="title is-4">Tags <span class="tag is-warning">See all</span></p>
                     <p class="subtitle is-6">Narrower but numerous topics</p>
                     <article>
                         {{range $name, $taxonomy := .Site.Taxonomies.tags}}
