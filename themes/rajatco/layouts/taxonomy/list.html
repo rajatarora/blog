@@ -1,0 +1,27 @@
+{{ define "main" }}
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column">
+                <div class="section has-text-centered">
+                    <p class="is-size-3 has-text-weight-bold">All content grouped by {{ .Title }}</p>
+                </div>
+                <div class="section" style="column-count: 3">
+                    {{ range $key, $value := .Data.Terms }}
+                    <div class="mb-5 box">
+                        <a href="{{ "/" | relLangURL }}{{ $.Data.Plural | urlize }}/{{ $key | urlize }}" class="has-text-red is-size-4 has-text-weight-bold">
+                        {{ $key }}
+                        </a>
+                        {{ range $value.Pages }}
+                        <h3>
+                            <a href="{{ .Permalink }}" class="has-text-black-ter">
+                                {{ .Title }}
+                            </a>
+                        </h3>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+{{ end }}
