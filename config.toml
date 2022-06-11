@@ -12,11 +12,11 @@ theme = 'rajatco'
 
 [[menu.main]]
   name = "Browse"
-  url = "/post"
+  url = "/browse"
 
 [[menu.main]]
   name = "RSS"
-  url = "/blog"
+  url = "/rss"
 
 [[menu.footer]]
   name = "About"
