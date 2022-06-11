@@ -1,0 +1,31 @@
+{{ define "main" }}
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column">
+                <div class="section has-text-centered">
+                    <p class="is-size-3 has-text-weight-bold">All {{ .Title }}</p>
+                </div>
+                <div class="section">
+                    <div class="columns is-centered">
+                        <div class="column is-9">
+                            <ul>
+                                {{ range .Pages }}
+                                <li class="post-list mb-6">
+                                    <a href="{{ .Permalink }}" class="post-list-title is-size-3 has-text-weight-bold has-text-black-ter">{{ .Title }}</a>
+                                    <br/>
+                                    <div class="post-list-meta has-text-grey">
+                                        {{ .PublishDate | time.Format ":date_long" }} &middot; {{ .WordCount }} words &middot; {{ .ReadingTime }} min read
+                                    </div>
+                                    <div class="post-list-summary has-text-weight-light is-size-6 mt-3">
+                                        {{ .Summary }}
+                                    </div>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{ end }}
