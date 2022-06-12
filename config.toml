@@ -9,22 +9,12 @@ theme = 'rajatco'
 [[menu.main]]
   name = "Who Am I"
   url = "/about"
+  weight = 200
 
 [[menu.main]]
   name = "Browse"
   url = "/browse"
-
-[[menu.main]]
-  name = "RSS"
-  url = "/rss"
-
-[[menu.footer]]
-  name = "About"
-  url = "/about"
-
-[[menu.footer]]
-  name = "Privacy"
-  url = "/privacy"
+  weight = 100
 
 [markup]
   [markup.highlight]
