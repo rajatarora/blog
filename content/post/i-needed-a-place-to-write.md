@@ -5,8 +5,6 @@ date = 2022-06-12T20:09:14+05:30
 author = "Rajat Arora"
 categories = ["personal"]
 tags = ["writing", "organisation"]
-draft = true
-
 +++
 
 I'm not particularly new to this _blogging_ world. If my memory serves me right, I had published my first blog post fifteen years ago! Sadly, that particular post (and that particular blog) does not exist today. Heck, I don't even remember the  URL that I can plug into [Wayback Machine](https://archive.org/web/) to find out what I was writing back then.
