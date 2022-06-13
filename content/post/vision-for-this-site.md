@@ -77,9 +77,9 @@ If I'm obsessed with one thing, it's counting stuff. I count the number of steps
 
 I also read and bookmark many links during my adventures on the internet. I have quite a collection over at [pinboard](https://pinboard.in) and [Raindrop](https://raindrop.io). I will also find a way to expose that collection here. Lots of gems in it!
 
-## Reviews of what I watch, read, listen, purchase
+## Reviews of what I watch, read, listen to, purchase
 
-I consume a lot of content: books, movies, tv series, youtube videos, music, podcasts... you name it and I consume it. 
+I consume a lot of content: books, movies, tv-series, youtube videos, music, podcasts... you name it, and I consume it. 
 
 Write content
 
