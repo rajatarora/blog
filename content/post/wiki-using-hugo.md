@@ -5,7 +5,6 @@ date = 2022-06-13T13:15:08+05:30
 author = "Rajat Arora"
 categories = ["wiki"]
 tags = ["organisation", "pkm", "idea"]
-draft = true
 
 +++
 
