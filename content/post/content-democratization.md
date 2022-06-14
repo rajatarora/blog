@@ -1,7 +1,7 @@
 +++
 title = "The Democratisation of Content"
 description = "Undescribed"
-date = 2022-06-15
+date = 2022-06-15T00:00:14+05:30
 author = "Rajat Arora"
 categories = ["Observations"]
 tags = ["OTT", "content", "discovery", "opinion"]
