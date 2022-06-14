@@ -1,7 +1,7 @@
 +++
 title = "Vision for this Site"
 description = "A description of what this blog will look like in future"
-date = 2022-06-13T20:19:15+05:30
+date = 2022-06-14T11:19:15+05:30
 author = "Rajat Arora"
 categories = ["personal"]
 tags = ["idea", "writing", "adhd"]
@@ -38,6 +38,11 @@ I have also mentioned before that I'll write whatever the fuck comes to my mind.
   - Self-help books
   - Literary books
   - So many other sorts of books...
+- Photography
+  - Mobile photography
+  - DSLRs and Lenses
+  - Photo dumps
+
 - Movies and Series
   - OTT platforms
   - Tracking what I've watched
@@ -54,7 +59,7 @@ I have also mentioned before that I'll write whatever the fuck comes to my mind.
 - Daydreaming
 - _And so on... and on... and on..._
 
-And this is by no means an exhaustive list. Last week I spent hours reading on the internet about CGNAT (it doesn't matter if you don't know what that is). The thing is that once I have a question in my mind, _I have to know the answer_. And so I read on. And on. And on.
+And this is by no means an exhaustive list. Last week I spent hours reading about CGNAT (it doesn't matter if you don't know what that is). The thing is that once I have a question in my mind, _I have to know the answer_. And so I read on. And on. And on.
 
 All this, and more, will end up on this site someday. My mind is so full of these things it is bursting to come out.
 
@@ -62,14 +67,14 @@ All this, and more, will end up on this site someday. My mind is so full of thes
 
 I like my sites clean and minimal, as must be evident by the design of the site you're currently reading. It is simple, functional, and above all, it doesn't distract you with big extensive, unnecessary sidebars, larger-than-life footers, and even a comment section[^1]. It is typeset in the excellent [Epilogue](https://etceteratype.co/epilogue) font by [Tyler Finck](https://www.tyfromtheinternet.com/profile/). It uses the [Bulma](https://bulma.io/) CSS framework, uses minimal colours, and has an easy-to-browse structure for content.
 
-Yet, something is missing from the whole thing. Maybe I tend to create something and then be immediately dissatisfied with it, or a sense of jealousy looking at some of the most beautiful websites in the world... the fact is that I'm _already working on another design for my site_ :stuck_out_tongue_winking_eye:. Will it be better? It might be!
+Yet, something is missing from the whole thing. Not just the rough edges in styling and routing (Did you notice the inconsistent spacing in the list above? Also have you encountered a page that says `lol`? No? Then maybe I already fixed those errors). It's something else. Perhaps I tend to create something and then be immediately dissatisfied with it, or a sense of jealousy looking at some of the most beautiful websites in the world... the fact is that I'm _already working on another design for my site_ :stuck_out_tongue_winking_eye:. Will it be better? It might be!
 
 However, will I ever stop tweaking the design of [rajat.co](https://rajat.co)? Probably not! There will always be a new design to benchmark against, a new font to try out, or a new micro-interaction to implement. I think I do this because:
 
 - I like beautiful things, and
 - I am fascinated by the art of web design.
 
-Whatever the case may be, expect the design of this site to change, or rather, _evolve_  :slightly_smiling_face:.
+Whatever the case may be, expect the design of this site to change, or rather, _evolve_ :slightly_smiling_face:.
 
 ## Lists and Stats
 
@@ -77,17 +82,33 @@ If I'm obsessed with one thing, it's counting stuff. I count the number of steps
 
 I also read and bookmark many links during my adventures on the internet. I have quite a collection over at [pinboard](https://pinboard.in) and [Raindrop](https://raindrop.io). I will also find a way to expose that collection here. Lots of gems in it!
 
-## Reviews of what I watch, read, listen to, purchase
+## Reviews of what I watch, read, and listen to
 
 I consume a lot of content: books, movies, tv-series, youtube videos, music, podcasts... you name it, and I consume it. 
 
-Write content
+All of the people I look up to give similar advice:
+
+> Create more than you consume.
+
+And what better way to create than to write about the stuff you already consume? :laughing: 
+
+I recently bought a new pencil. I recently finished reading a book. I recently started learning about [Hugo](https://gohugo.io). And I recently watched a movie too. Whenever I feel that any of the above warrants a review, I will write it and put it up, I don't be able to review _everything_, but it will be a start anyway.
 
 ## Frequency of posting
 
- 
+I plan to write daily, although stuff might not be _published_ daily here. The way things stand right now, I have set up a git repo for this blog but haven't set up CI/CD yet. (Mostly because it is still early days for this blog, and I haven't gotten around to it yet). Building and publishing require a separate step at this point, which I can't do from my work laptop. So the writing will be frequent, but the publishing may not be.
 
+## Filter
 
+I've always had a filter about what to say whenever I have written anything to be published online. I'm an extremely private person. I don't think even my closest friends know the real me :see_no_evil:.
+
+An argument can be made that even _I_ don't know the real me because I'm too unpredictable, but that's a story for another day.
+
+Anyway. I want to try and stop having a filter on whatever I say here. Yes, it goes against my core values, and yes, it will be tough for me to do this. But I want to try.
+
+Why?
+
+Because it represents the idealist notion of _living in public_. 
 
 [^1]: I will never have a comment section on my online home. If you have something to say about my posts, write to me directly at [r@rajat.co](mailto:r@rajat.co)
 

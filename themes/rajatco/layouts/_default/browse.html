@@ -53,9 +53,9 @@
                     <p class="subtitle is-6">Broader topics I like to write about</p>
                     <article>
                         {{range $name, $taxonomy := .Site.Taxonomies.categories}}
-                        {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+                        {{ with $.Site.GetPage (printf "/categories/%s" $name) }}
                         <span class="tagbutton">
-                                    <a href={{ .RelPermalink }} title="All pages with tag {{$name}}">{{$name}}</a>
+                                    <a href={{ .RelPermalink }} title="All pages with category {{$name}}">{{$name}}</a>
                                 </span>
                         {{end}}
                         {{end}}
