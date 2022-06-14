@@ -13,3 +13,5 @@ Content Democratization: How OTT platforms are leveling the playing field by giv
 
 Photograph the movie: How it felt incomplete to me.
 
+Two Monitors: How I can't go back to a single one. Start with the Saurabh Banka anecdote - 4 monitors and an expensive video card.
+
