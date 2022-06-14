@@ -4,9 +4,7 @@ description = "A description of what this blog will look like in future"
 date = 2022-06-14T11:19:15+05:30
 author = "Rajat Arora"
 categories = ["personal"]
-tags = ["idea", "writing", "adhd"]
-draft = true
-
+tags = ["idea", "writing", "adhd", "design", "content"]
 +++
 
 As I have already mentioned in my [earlier]({{< relref "i-needed-a-place-to-write" >}}) [posts]({{< relref "wiki-using-hugo" >}}), I have a somewhat different vision for this site than a typical blogger. I'm blogging more for myself than for anyone else. Yes, I've already talked about building a body of work, but that will evolve on its own... kind of like extracting order from chaos over time.
@@ -92,7 +90,7 @@ All of the people I look up to give similar advice:
 
 And what better way to create than to write about the stuff you already consume? :laughing: 
 
-I recently bought a new pencil. I recently finished reading a book. I recently started learning about [Hugo](https://gohugo.io). And I recently watched a movie too. Whenever I feel that any of the above warrants a review, I will write it and put it up, I don't be able to review _everything_, but it will be a start anyway.
+I recently bought a new pencil. I recently finished reading a book. I recently started learning about [Hugo](https://gohugo.io). And I recently watched a movie too. Whenever I feel that any of the above warrants a review, I will write it and put it up, I won't be able to review _everything_, but it will be a start anyway.
 
 ## Frequency of posting
 
@@ -108,7 +106,11 @@ Anyway. I want to try and stop having a filter on whatever I say here. Yes, it g
 
 Why?
 
-Because it represents the idealist notion of _living in public_. 
+Because it represents the idealist notion of _living in public_, something that [Visakan Veerasamy](http://visakanv.com/) excels at. (Big fan, btw). I'm damn sure that, [except me]({{< relref "i-needed-a-place-to-write" >}}), nobody will read all my rants here (Psychopaths will. Are you a psychopath?), so I'm pretty safe from a levy of online attacks.
+
+Anyway, I'm a person with moderate, _centrist_ views... so fringe elements will have plenty of other things to get triggered by.
+
+Does that mean that people who know me IRL (and even those who don't) will have a _real_ chance of knowing the real me? I highly doubt that. However, if someone is really patient with my frantic posts, then... _anything could happen!_
 
 [^1]: I will never have a comment section on my online home. If you have something to say about my posts, write to me directly at [r@rajat.co](mailto:r@rajat.co)
 
