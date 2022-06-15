@@ -4,7 +4,7 @@
         <article>
             <div class="columns is-centered">
                 <div class="column is-9 has-text-centered" id="post-title">
-                    <h1 class="title is-1">{{ .Title }}</h1>
+                    <h1 class="title is-1">{{ .Title | emojify }}</h1>
                     <p class="is-size-6">{{ .WordCount }} words &middot; {{ .ReadingTime }} min read</p>
                 </div>
             </div>
