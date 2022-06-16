@@ -95,7 +95,7 @@ I recently bought a new pencil. I recently finished reading a book. I recently s
 
 ## Frequency of posting
 
-I plan to write daily, although stuff might not be _published_ daily here. The way things stand right now, I have set up a git repo for this blog but haven't set up CI/CD yet. (Mostly because it is still early days for this blog, and I haven't gotten around to it yet). Building and publishing require a separate step at this point, which I can't do from my work laptop. So the writing will be frequent, but the publishing may not be.
+I plan to write daily, although stuff might not be _published_ daily here. The way things stand right now, I have set up a git repo for this blog but haven't set up CI/CD yet. (Mostly because this blog is still in its early days, and I haven't gotten around to it yet). Building and publishing require a separate step at this point, which I can't do from my work laptop. So the writing will be frequent, but the publishing may not be.
 
 ## Filter
 
